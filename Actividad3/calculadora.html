@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="eS">
+<head>
+<title>Calculadora</title>
+<meta charset="UTF-8">
+<!-- Enlazamos los estilos CSS-->
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<!-- Creamos un DIV para contener el formulario -->
+<div id="form">
+<span>Ingrese dos números:</span>
+<!-- Creamos dos input para recuperar los datos
+ingresados por el usuario -->
+<input id="input-uno" type="text">
+<input id="input-dos" type="text">
+<!-- Creamos un botón con el fin de invocar la suma -->
+<button id="btnS">sumar</button>
+<button id="btnR">restar</button>
+<button id="btnM">multiplicar</button>
+<button id="btnD">dividir</button>
+
+</div>
+<!-- Creamos un DIV que permita mostrar el resultado de la suma -->
+<div class="resultado"> 
+  <div id="resultadoSuma"></div>
+  <div id="resultadoResta"></div>
+  <div id="resultadoMult"></div>
+  <div id="resultadoDiv"></div>
+</div>
+<p id="error"></p>
+<!-- Enlazamos el código JS -->
+<script src="funcionalidadCalculadora.js"></script>
+</body>
+</html>
